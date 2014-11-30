@@ -1,0 +1,17 @@
+{
+  "name": "vmg-static",
+  "version": "0.1.0",
+  "description": "Static files for VMG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.5.2",
+    "express": "^4.10.4",
+    "gulp": "^3.8.10",
+    "gulp-gh-pages": "^0.4.0"
+  }
+}
