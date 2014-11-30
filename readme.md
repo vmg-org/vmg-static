@@ -1,3 +1,0 @@
-VMG static files
----
-
