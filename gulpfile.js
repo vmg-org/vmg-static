@@ -3,7 +3,7 @@ var gulpGhPages = require('gulp-gh-pages');
 var cors = require('cors');
 
 var corsOptions = {
-  origin: '*' // 'http://localhost:4000'
+  origin: '*'
 };
 
 function startExpress() {
@@ -19,4 +19,9 @@ function startExpress() {
 gulp.task('connect', function(done) {
     startExpress();
     done();
+});
+
+gulp.task('deploy', function(){
+  gulp.src('public/**/*')
+    .pipe(gulpGhPages());
 });
